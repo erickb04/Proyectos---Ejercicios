@@ -1,0 +1,72 @@
+body{
+    background-image: url(fondo.jpg);
+    display: flex;
+    height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#ventanaMain{
+    display: flex;
+    width: 900px;        
+    height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 8%);
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+#ventana2{
+    width: 250px;        
+  height: 400px;       
+  background-color: hsl(0, 0%, 12%);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  border-radius: 8px;
+}
+
+#avatar{
+    position: relative;
+    left: 32px;
+}
+
+#texto1{
+    font-size: medium;
+    font-family: "Inter", sans-serif;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+}
+
+#texto2{
+    font-family: "Inter", sans-serif;
+    font-size: smaller;
+    color: hsl(75, 94%, 57%);
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  
+}
+
+#texto{
+    font-family: "Inter", sans-serif;
+    font-size:small;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+}
+
+.img{
+    width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+#git{
+    font-family: "Inter", sans-serif;;
+    width: 250px;        
+    height: 45px;
+    border-radius: 5px;
+}
